@@ -1,0 +1,17 @@
+[
+  {
+    "project" : "ut32",
+    "default_debug_type" : "debug",
+    "product" : "ut"
+  },
+  {
+    "project" : "asan",
+    "default_debug_type" : "debug",
+    "product" : "ut"
+  },
+  {
+    "project" : "tsan",
+    "default_debug_type" : "debug",
+    "product" : "ut"
+  }
+]
