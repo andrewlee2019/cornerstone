@@ -1,1 +1,1 @@
-include_directories(${THIRDPARTY_PATH}/google/googletest/googletest/include/gtest)
+# 这里存放 测试用例 需要用到的头文件

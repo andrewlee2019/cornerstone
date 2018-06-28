@@ -1,0 +1,5 @@
+option(BENCHMARK_ENABLE_GTEST_TESTS "gtest will be build by stone project" OFF)
+option(BENCHMARK_ENABLE_INSTALL "project will include benchmark" OFF)
+option(BENCHMARK_ENABLE_TESTING "test" OFF)
+include_directories(${THIRDPARTY_PATH}/google/benchmark/include/benchmark)
+add_subdirectory("${THIRDPARTY_PATH}/google/benchmark" "${BUILD_PATH}/benchmark")

@@ -15,4 +15,6 @@ set(LIBRARY_OUTPUT_PATH ${BUILD_PATH}/lib)
 include_directories(${THIRDPARTY_PATH}/google/googletest/googletest/include)
 add_subdirectory(code)
 
-add_subdirectory(thirdparty/google/googletest)
+# add_subdirectory(thirdparty/google/googletest)
+# include(${CODE_PATH}/cmake/thirdparty/benchmark.cmake)
+# add_subdirectory(thirdparty/google/benchmark)
