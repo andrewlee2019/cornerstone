@@ -10,3 +10,6 @@
 [submodule "thirdparty/google/re2"]
 	path = thirdparty/google/re2
 	url = https://github.com/google/re2.git
+[submodule "thirdparty/apache/Libevent"]
+	path = thirdparty/apache/Libevent
+	url = https://github.com/nmathewson/Libevent.git
